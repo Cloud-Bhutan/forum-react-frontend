@@ -1,12 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbartop from './components/Navbartop';
-function App() {
-  return (
-    <div className="container-nav">
-      <Navbartop/>
-    </div>
-  );
+const Navbartop = () => {
+    return (
+            
+        <a className="bhutanese-nav" href="#">LogoGoesHere </a>
+    )
 }
-
-export default App;
+export default Navbartop
